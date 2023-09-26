@@ -38,3 +38,40 @@
 //   return age >= 18;
 // }
 // console.log(result)
+
+// let meats=['beef', 'pork', 'fish']
+// console.log(meats)
+
+// meats.push[2];
+// console.log(meats)
+
+// meats.push('veal');
+// console.log(meats)
+
+// meats.pop('2');
+// console.log(meats);
+
+let myArray=[1, 2, 3, 4, 5]
+console.log(myArray);
+
+for (let i=0; i < myArray.length; i++) {
+    console.log(myArray[i])
+}
+myArray.forEach(function(element) {
+    console.log(element)
+})
+
+let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+numbers.forEach(function(element) { 
+    if(element %2 ===0) {
+        console.log(element)
+    }
+})
+
+function isEven(number) {
+    if (number % 2 === 0) {
+        console.log(number)
+    }
+}
+
+
