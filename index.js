@@ -95,3 +95,19 @@
 // }
 // console.log(filteredArray)
 
+class Car {
+    constructor(make, model, color) {
+    this.make = make;
+    this.model = model;
+    this.VideoColorSpace;
+}
+}
+
+let newJaguar = new Car("jaguar", "Turbo XE", "Black");
+let newJeep = new Car("Jeep", "Wrangler", "silver");
+let newTesla = new Car("Tesla", "Model X", "Red");
+
+console.log(newJaguar)
+console.log(newJeep)
+console.log(newTesla)
+
